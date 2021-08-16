@@ -1,4 +1,4 @@
-# virtual-window
+# virtual_window
 
 A ROS node (and library) that allows a X11 window to be started in a headless session and published to a ROS image. This can be useful for things like robot faces that need to be transformed before being drawn to screen (e.g., projected with a mirror).
 
