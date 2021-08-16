@@ -6,7 +6,10 @@ A ROS node (and library) that allows a X11 window to be started in a headless se
 
 ```sh
 # Create a headless X11 session on display :99 with a 512x512 px drawing area (default depth of 24 bits)
-rosrun virtual_window virtual_window_node _display:=:99 _width:=512 _height:=512 
+rosrun virtual_window virtual_window_node _display:=:99 _width:=512 _height:=512
+
+# Run the application of your choice on the headless session
+DISPLAY=:99 my_gui_app --fullscreen
 ```
 
 ## License 
