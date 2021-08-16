@@ -5,7 +5,7 @@ A ROS node (and library) that allows a X11 window to be started in a headless se
 ## Dependencies
 
   - ROS Noetic (untested on other ROSes, but should work)
-  - `Xvfb` (expected to be in PATH)
+  - `Xvfb` (expected to be in `PATH`)
 
 ## Usage
 
